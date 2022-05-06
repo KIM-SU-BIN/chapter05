@@ -18,16 +18,13 @@ public class Ex01 {
 
 		while (true) {
 			String str = br.readLine();
-			
-			if(str == null) {
+			// System.out.println(str.toString()); 위의 String 주소가 없으면(즉, null이면) 결과 출력할 수 없음
+
+			if (str == null) {
 				break;
-				
-			} 
+			}
 			System.out.println(str.toString());
-
 		}
-
 		br.close();
 	}
-
 }
